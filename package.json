@@ -1,0 +1,39 @@
+{
+  "name": "@meanie/mongoose-moment",
+  "description": "A plugin for Mongoose to normalize JSON output",
+  "version": "2.2.0",
+  "homepage": "https://github.com/meanie/mongoose-moment",
+  "author": {
+    "name": "Adam Reis",
+    "email": "adam@reis.nz",
+    "url": "https://adam.reis.nz/"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meanie/mongoose-moment"
+  },
+  "bugs": {
+    "url": "https://github.com/meanie/mongoose-moment/issues"
+  },
+  "keywords": [
+    "meanie",
+    "mongoose",
+    "json",
+    "plugin"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "peerDependencies": {
+    "mongoose": "^4.11.9 || ^5.0.3"
+  }
+}
